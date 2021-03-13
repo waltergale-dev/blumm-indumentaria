@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200&display=swap');
+/* font-family: 'Titillium Web', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.bor{
+    border: 0.01em solid rgb(222, 220, 220);
+}
+p{
+    padding: 0;
+    margin: 0;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 300;
+
+
+}
+.ofertas{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+
+}
+.img-carru{
+    width: 100px;
+    height: 100px;
+   
+}
+.btn-w{
+    position: fixed;
+    width: 30px;
+    height: 30px;    
+    bottom: 90px;
+    right: 110px;
+    z-index: 1000;
+}
+@media (max-width: 576px) { 
+    .fa-whatsapp{
+        /* width: 60px; */
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+    }
+    .btn-w{
+        padding: 0;
+        margin: 0;
+        bottom: 45px;
+        right: 45px;
+        
+    }
+ }
+ .fa-whatsapp{
+    font-size: 45px;
+    padding: 8px 10px;
+    background: green;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius:;
+    color: white;
+    text-align: center;
+}
+body{
+    background: #ccf2f4;
+}
+nav{
+    background: #a4ebf3;
+}
+.redes{
+    background: #a4ebf3;
+}
+.formul{
+    background: #d5d1d1;
+
+}
+.fa-box-open{
+    margin-left: 10px;
+}
+.stock{
+    position: absolute;
+    color: #ff0808d2;
+    font-size: 30px;
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    left: 20px;
+    top: 75px;
+}
+.stock-2{
+    position: absolute;
+    color: #fa0000d2;
+    font-size: 30px;
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    left: 170px;
+    top: 75px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:bold;
+    
+}
+.fa-facebook, .fa-instagram {
+    font-size: 60px;
+}
